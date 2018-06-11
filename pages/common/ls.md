@@ -1,8 +1,10 @@
 # ls
 
-> test
-
 > List directory contents.
+
+- Do some stuff
+
+`do some stuff`
 
 - List files one per line:
 
