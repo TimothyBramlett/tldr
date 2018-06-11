@@ -22,7 +22,7 @@
 
 `diff -rq {{directory1}} {{directory2}}`
 
-or 
+  or 
 
 `diff --brief --recursive {{directory1}} {{directory2}}`
 
