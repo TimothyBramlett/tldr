@@ -2,18 +2,7 @@
 
 > Distributed version control system.
 
-- Check the Git version:
+- Reset and throw away local changes
 
-`git --version`
+`git reset --hard`
 
-- Call general help:
-
-`git --help`
-
-- Call help on a command:
-
-`git help {{command}}`
-
-- Execute Git command:
-
-`git {{command}}`
