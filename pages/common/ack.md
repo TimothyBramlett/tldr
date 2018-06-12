@@ -4,8 +4,6 @@
 
 * By default ack is recursive
 
-# Examples
-
 - do a case case-insensitive search with: 
 
 `ack -i "some.dude@somedude.com" `
