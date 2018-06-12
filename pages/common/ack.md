@@ -2,7 +2,7 @@
 
 > A search tool like grep, optimized for programmers.
 
-* By default ack is recursive
+  * By default ack is recursive
 
 - do a case case-insensitive search with: 
 
