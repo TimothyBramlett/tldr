@@ -2,9 +2,9 @@
 
 > A search tool like grep, optimized for programmers.
 
-- Find files containing "foo":
+- find files 
 
-`ack {{foo}}`
+`ack --ignore-file=ext:yml "{{search_string}}"`
 
 - Find files in a specific language:
 
