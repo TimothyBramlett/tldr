@@ -4,6 +4,7 @@
 
 * By default ack is recursive
 
+----
 
 - do a case case-insensitive search with: 
 
