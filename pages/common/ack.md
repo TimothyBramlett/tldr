@@ -2,7 +2,14 @@
 
 > A search tool like grep, optimized for programmers.
 
-- find files 
+* By default ack is recursive
+
+
+- do a case case-insensitive search with: 
+
+`ack -i "some.dude@somedude.com" `
+
+- search for string ignoring yml file extension:
 
 `ack --ignore-file=ext:yml "{{search_string}}"`
 
