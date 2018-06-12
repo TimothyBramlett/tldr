@@ -14,6 +14,10 @@
 
 `find {{root_path}} -name '{{*.ext}}' -exec {{wc -l {} }}\;`
 
+- Find files that are not within a .git folder and then replace string with other_string, in the CWD:
+
+`find . -not -path '*/\.git*' -type f -exec sed -i 's/{{string}}/{{other_string}}/g' {} +`
+
 - Find files created in the last 30 minutes:
 
 `find . -cmin -30`
@@ -25,18 +29,6 @@
 - Find files modified in the last 24-hour period:
 
 `find {{root_path}} -mtime {{-1}}`
-
-- Find files using case insensitive name matching, of a certain size:
-
-`find {{root_path}} -size {{+500k}} -size {{-10MB}} -iname '{{*.TaR.gZ}}'`
-
-- Delete files by name, older than 180 days:
-
-`find {{root_path}} -name '{{*.ext}}' -mtime {{+180}} -delete`
-
-- Find files matching more than one search criteria:
-
-`find {{root_path}} -name '{{*.py}}' -or -name '{{*.r}}'`
 
 - Find files matching a given pattern, while excluding specific paths:
 
