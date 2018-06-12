@@ -14,6 +14,14 @@
 
 `find {{root_path}} -name '{{*.ext}}' -exec {{wc -l {} }}\;`
 
+- Find files created in the last 30 minutes:
+
+`find . -cmin -30`
+
+- Find files modifed in the last 30 minutes:
+
+`find . -mmin -30`
+
 - Find files modified in the last 24-hour period:
 
 `find {{root_path}} -mtime {{-1}}`
