@@ -12,6 +12,10 @@
 
 - Upgrade a package:
 
+`pip install --upgrade {{package_name}}`
+
+or 
+
 `pip install -U {{package_name}}`
 
 - Uninstall a package:
